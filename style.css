@@ -1,0 +1,94 @@
+body {
+    font-family: sans-serif;
+    
+}
+
+header h1 {
+    text-align: center;
+}
+
+main h1 {
+    text-align: center;
+}
+
+.city img {
+    width: 300px;
+    height: 200px;
+}
+
+.city {
+    width: 350px;
+    height: 350px;
+    font-size: 25px;
+    background-color: bisque;
+    text-align: center;
+    padding-top: 20px;
+    border: 5px solid black;
+    box-shadow: 10px 5px 5px Black;
+    margin-bottom: 20px;
+}
+
+.city:hover{
+    background-color: rgb(226, 175, 112);
+    width: 400px;
+    height: 400px;
+    transition: all 0.5s;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+}
+
+.gor {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+header {
+    background: linear-gradient(to right,white,black);
+}
+
+nav a {
+    text-decoration: none;
+    border-radius: 15px ;
+    background-color:blueviolet ;
+    color: white;
+    padding: 15px;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a:hover {
+    background: gold;
+    color: black;
+}
+
+.fag {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+}
+.qqq{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    background-color: aqua;
+    padding: 10px;
+}
+p{
+    font-size: 20px;
+}
+
+
